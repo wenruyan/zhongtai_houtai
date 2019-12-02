@@ -14,7 +14,7 @@
     "flyio": "^0.6.9",
     "less": "2.7.3",
     "less-loader": "^4.1.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "nprogress": "^0.2.0",
     "vue": "^2.5.17",
     "vue-cropper": "^0.4.9",
