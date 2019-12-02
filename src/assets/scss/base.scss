@@ -1,0 +1,27 @@
+@import "./common/_normalize.scss";
+@import "./common/_flex.scss";
+@import "./common/_box.scss";
+
+// 全局样式
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+  min-width: 1300px;
+  color: #262F3E;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+}
+
+input:-webkit-autofill { /* chrome自动填充的背景色覆盖 */
+  -webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset !important;
+}
